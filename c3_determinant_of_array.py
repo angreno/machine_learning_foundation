@@ -4,3 +4,4 @@ print(A)
 print(type(A))
 det=np.linalg.det(A)
 print(det)
+
