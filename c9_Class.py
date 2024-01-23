@@ -15,9 +15,9 @@ def isOrthogonal(a,m,n):
 
                 return True
 
-        a = [[1, 0, 0],
-             [0, 1, 0],
-             [0, 0, 1]]
+        a = [[1, 1, 0],
+             [1, 0, 1],
+             [1, 1, 1]]
 
         if (isOrthogonal(a, 3, 3)):
             print("Yes its ortho")

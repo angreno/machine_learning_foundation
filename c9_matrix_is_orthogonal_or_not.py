@@ -44,12 +44,13 @@ def isOrthogonal(a, m, n):
     return True
 
 
-
 a = [[1, 0, 0],
-     [0, 1, 0],
-     [0, 0, 1]]
+     [1, 0, 1],
+     [1, 0, 1]]
 
 if (isOrthogonal(a, 2, 2)):
     print("Yes its ortho")
 else:
     print("No")
+
+    
